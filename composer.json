@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/BranchLabs_AdminPasswordStrength",
+    "type": "magento-module",
+    "license": "Apache-Software-License-(ASL)",
+    "homepage": "",
+    "description": "Get control over your Magento admin security to prevent unwanted attackers from gaining access.",
+    "authors": [
+    {
+        "name": "BranchLabs",
+        "email": "graham@branchlabs.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

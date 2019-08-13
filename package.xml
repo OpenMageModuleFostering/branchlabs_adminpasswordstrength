@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>BranchLabs_AdminPasswordStrength</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>Apache Software License (ASL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Get control over your Magento admin security to prevent unwanted attackers from gaining access.</summary>
+    <description>Prevent unwanted attackers from gaining access to your Magento admin panel through brute-force attacks. This extension enables you to increase the minimum password length for admin users, making them harder to guess and your admin panel more secure.</description>
+    <notes>Initial release</notes>
+    <authors><author><name>BranchLabs</name><user>glipsman</user><email>graham@branchlabs.com</email></author></authors>
+    <date>2015-07-09</date>
+    <time>20:50:11</time>
+    <contents><target name="magecommunity"><dir name="BranchLabs"><dir name="AdminPasswordStrength"><dir name="Helper"><file name="Data.php" hash="1282ac9e6581e6dd3f8d3f5334fa11c7"/></dir><dir name="Model"><file name="Observer.php" hash="2cd620007fda6ba7639691bf3c71ff53"/></dir><dir name="etc"><file name="config.xml" hash="62b0ad06a25986d4014c4c66784d36d5"/><file name="system.xml" hash="f067cf23f53283ceb6a81ab914308abf"/></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><dir name="branchlabs"><file name="adminpasswordstrength.xml" hash="de296b573d633a7cb5afdc7f11b652be"/></dir></dir><dir name="template"><dir name="branchlabs"><dir name="adminpasswordstrength"><file name="validator_js.phtml" hash="23fc9d3811f77bc4dc059d0d0e858dc6"/></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="BranchLabs_AdminPasswordStrength.xml" hash="8f987692d997192f9fef71db85f22ec0"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>7.0.0</max></php></required></dependencies>
+</package>
