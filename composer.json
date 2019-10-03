@@ -1,5 +1,5 @@
 {
-    "name": "OpenMageModuleFostering\/BranchLabs_AdminPasswordStrength",
+    "name": "openmage-module-fostering\/branchlabs_adminpasswordstrength",
     "type": "magento-module",
     "license": "Apache-Software-License-(ASL)",
     "homepage": "",
